@@ -1,3 +1,138 @@
+// EDIT THESE COLORS (Main Color Scheme) 
+$color-primary: hsl(200, 85%, 50%) !default;
+$color-primary-alt: adjust-hue($color-primary, 10%) !default;
+
+$color-secondary: adjust-hue($color-primary, 145%) !default;
+$color-secondary-alt: desaturate(adjust-hue($color-primary, 20%), 65%) !default;
+
+
+// Additioanl UI Vars
+$color-links: desaturate(darken($color-primary-alt, 20%), 5%) !default;
+$color-highlight: hsl(55, 100%, 90%) !default;
+$color-code: hsl(125, 40%, 50%) !default;
+$color-bg: $color-primary !default;
+$color-polls: $color-secondary !default;
+
+
+//== VARS BEYOND HERE ARE BASED ON THE VARS ABOVE DO NOT CHANGE UNLESS YOU KNOW WHAT YOU ARE DOING ==//
+
+// Primary Colors
+$color-primary-light: saturate(lighten($color-primary, 25%), 15%);
+$color-primary-dark: saturate(darken($color-primary, 15%), 15%);
+$color-primary-alt-light: saturate(lighten($color-primary-alt, 25%), 15%);
+$color-primary-alt-dark: saturate(darken($color-primary-alt, 15%), 15%);
+
+// UI Colors
+$color-secondary-alt-light: lighten($color-secondary-alt, 25%);
+$color-secondary-alt-dark: darken($color-secondary-alt, 15%);
+$color-secondary-alt-super-dark: darken($color-secondary-alt, 30%);
+
+// Secondary Colors
+$color-secondary-light: lighten($color-secondary, 25%);
+$color-secondary-dark: darken($color-secondary, 10%);
+$color-secondary-hover: desaturate(lighten($color-secondary, 40%), 45%);
+$secondary-light: lighten($color-secondary-hover, 5%);
+
+// Grayscale Colors (Based on Material Design)
+$gray-50:  #fafafa !default; // hsl(0, 0%, 98%)
+$gray-100: #f5f5f5 !default; // hsl(0, 0%, 96%)
+$gray-200: #eeeeee !default; // hsl(0, 0%, 93%)
+$gray-300: #e0e0e0 !default; // 12% hsl(0, 0%, 87%)
+$gray-400: #bdbdbd !default; // hsl(0, 0%, 74%)
+$gray-500: #9e9e9e !default; // 38% hsl(0, 0%, 62%)
+$gray-600: #757575 !default; // 54% hsl(0, 0%, 46%)
+$gray-700: #616161 !default; // hsl(0, 0%, 38%)
+$gray-800: #424242 !default; // hsl(0, 0%, 26%)
+$gray-900: #212121 !default; // 87% hsl(0, 0%, 13%)
+
+$black:	#000000 !default;
+$black-87: $gray-900 !default;
+$black-54: $gray-600 !default;
+$black-38: $gray-500 !default;
+$black-12: $gray-300 !default;
+$white: #ffffff !default;
+
+// Background Colors
+$color-bg-1: desaturate(lighten($color-bg, 45%), 45%);
+$color-bg-2: darken($color-bg-1, 5%);
+$color-bg-3: darken($color-bg-1, 10%);
+$color-bg-4: desaturate($color-bg-1, 20%);
+$color-bg-light: saturate($color-bg-1, 60%);
+$color-bg-dark: desaturate(darken($color-bg-1, 14%), 10%);
+$color-bg-dark-hover: lighten($color-bg-dark, 5%);
+
+// Link Colors
+$color-link: $color-links;
+$color-link-accent: saturate(lighten($color-links, 10%), 15%);
+$color-link-hover: darken($color-secondary, 5%);
+$color-link-hover-highlight: desaturate(lighten($color-link-hover, 40%), 15%);
+
+$color-link-secondary: desaturate(lighten($color-links, 20%), 15%);
+$color-link-secondary-accent: desaturate($color-link-secondary, 30%);
+$color-link-secondary-hover: darken($color-link-secondary, 25%);
+$color-link-secondary-hover-highlight: saturate(lighten($color-link-secondary-hover, 65%), 5%);
+
+// Button Colors
+$color-button-border: $gray-400;
+$color-button-box-shadow: $white;
+$color-button-text-shadow: $white;
+$color-button-text: $color-link-hover;
+$color-button-background: $gray-300;
+$color-button-background-light: $white;
+$color-button-icon: $gray-500;
+
+$color-button-icon-hover: $color-primary-dark;
+$color-button-border-hover: $color-primary-dark;
+$color-button-text-shadow-hover: rgba(desaturate($color-button-text, 20%), 0.2);
+
+$color-button-form-text: $gray-900;
+$color-button-form-border: $gray-700;
+$color-button-form-text-hover: $color-link-hover;
+$color-button-form-border-hover: $color-link-hover;
+$color-button-form-input-border-focus: $color-primary-dark;
+$color-button-form-input-text-focus: $color-primary-dark;
+
+// Tab Colors
+$color-tab-text: $color-secondary-alt-dark;
+$color-tab-text-mini-active: $gray-900;
+$color-tab-text-hover: $color-link-hover;
+$color-tab-text-active: $gray-900;
+
+$color-tab-bg: $color-bg-dark;
+$color-tab-bg-mini: $color-bg-2;
+$color-tab-bg-hover: $color-bg-light;
+$color-tab-bg-active: $color-bg-3;
+$color-tab-bg-active-light: $color-tab-bg-hover;
+$color-tab-bg-mini-active: $gray-50;
+
+$color-tab-border-active: $color-tab-bg-active;
+$color-tab-box-shadow-active: $color-bg-light;
+
+// Poll Colors
+$color-poll-bg1: desaturate(darken($color-polls, 10%), 10%);
+$color-poll-bg2: desaturate(darken($color-polls, 5%), 5%);
+$color-poll-bg3: $color-polls;
+$color-poll-bg4: saturate(lighten($color-polls, 5%), 5%);
+$color-poll-bg5: saturate(lighten($color-polls, 10%), 10%);
+
+$color-poll-border1: desaturate(darken($color-poll-bg1, 10%), 5%);
+$color-poll-border2: desaturate(darken($color-poll-bg2, 10%), 5%);
+$color-poll-border3: desaturate(darken($color-poll-bg3, 5%), 5%);
+$color-poll-border4: desaturate(darken($color-poll-bg4, 5%), 5%);
+$color-poll-border5: desaturate(darken($color-poll-bg5, 5%), 5%);
+
+// Highlight colors
+$color-blockquote: desaturate($color-highlight, 45%);
+$color-blockquote-inner: desaturate($color-highlight, 30%);
+
+// PM Colors
+$color-pm-reply: desaturate(lighten($color-primary, 20%), 65%);
+$color-pm-friend: desaturate(darken($color-primary, 5%), 45%);
+$color-pm-reported: $color-secondary;
+$color-pm-marked: adjust-hue(saturate($color-secondary, 15%), -310%);
+$color-pm-foe: $black;
+
+
 /************************************************************************\
 /* DELETE EVERYTHING PAST HERE
 /************************************************************************/
