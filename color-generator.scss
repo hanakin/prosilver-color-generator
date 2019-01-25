@@ -1,0 +1,277 @@
+/************************************************************************\
+/* DELETE EVERYTHING PAST HERE
+/************************************************************************/
+
+.color-primary { background-color: $color-primary; }
+.color-accent { background-color: $color-secondary; }
+.color-secondary { background-color: $color-primary-alt; }
+.color-ui { background-color: $color-secondary-alt; }
+.color-links { background-color: $color-links; }
+.color-highlight { background-color: $color-highlight; }
+.color-code { background-color: $color-code; }
+.color-bg { background-color: $color-bg; }
+.color-polls { background-color: $color-polls; }
+
+.color-primary-light { background-color: $color-primary-light; }
+.color-primary-dark { background-color: $color-primary-dark; }
+
+.color-secondary-light { background-color: $color-primary-alt-light; }
+.color-secondary-dark { background-color: $color-primary-alt-dark; }
+
+.color-accent-light { background-color: $color-secondary-light; }
+.color-accent-dark { background-color: $color-secondary-dark; }
+.color-accent-hover { background-color: $color-secondary-hover; }
+.color-accent-highlight { background-color: $secondary-light; }
+
+.color-ui-light { background-color: $color-secondary-alt-light; }
+.color-ui-dark { background-color: $color-secondary-alt-dark; }
+.color-ui-super-dark { background-color: $color-secondary-alt-super-dark; }
+
+.gray-50 { background-color: $gray-50; }
+.gray-100 { background-color: $gray-100; }
+.gray-200 { background-color: $gray-200; }
+.gray-300 { background-color: $gray-300; }
+.gray-400 { background-color: $gray-400; }
+.gray-500 { background-color: $gray-500; }
+.gray-600 { background-color: $gray-600; }
+.gray-700 { background-color: $gray-700; }
+.gray-800 { background-color: $gray-800; }
+.gray-900 { background-color: $gray-900; }
+
+.black { background-color: $black; }
+.black-87 { background-color: $black-87; }
+.black-54 { background-color: $black-54; }
+.black-38 { background-color: $black-38; }
+.black-12 { background-color: $black-12; }
+.white { background-color: $white; }
+
+// Background Colors
+.color-bg-1 { background-color: $color-bg-1; }
+.color-bg-2 { background-color: $color-bg-2; }
+.color-bg-3 { background-color: $color-bg-3; }
+.color-bg-4 { background-color: $color-bg-4; }
+.color-bg-light { background-color: $color-bg-light; }
+.color-bg-dark { background-color: $color-bg-dark; }
+.color-bg-dark-hover { background-color: $color-bg-dark-hover; }
+
+.color-link { background-color: $color-links; }
+.color-link-accent { background-color: $color-link-accent; }
+.color-link-hover { background-color: $color-link-hover; }
+.color-link-hover-highlight { background-color: $color-link-hover-highlight; }
+
+.color-link-secondary { background-color: $color-link-secondary; }
+.color-link-secondary-accent { background-color: $color-link-secondary-accent; }
+.color-link-secondary-hover { background-color: $color-link-secondary-hover; }
+.color-link-secondary-hover-highlight { background-color: $color-link-secondary-hover-highlight; }
+
+
+.color-button-border { background-color: $color-button-border; }
+.color-button-text { background-color: $color-button-text; }
+.color-button-background { background-color: $color-button-background; }
+.color-button-icon { background-color: $color-button-icon; }
+
+.color-button-box-shadow { background-color: $color-button-box-shadow; }
+.color-button-text-shadow { background-color: $color-button-text-shadow; }
+.color-button-background-light { background-color: $color-button-background-light; }
+.color-button-icon-hover { background-color: $color-button-icon-hover; }
+.color-button-border-hover { background-color: $color-button-border-hover; }
+.color-button-form-text { background-color: $color-button-form-text; }
+.color-button-form-border { background-color: $color-button-form-border; }
+
+.color-button-text-shadow-hover { background-color: $color-button-text-shadow-hover; }
+.color-button-form-text-hover { background-color: $color-button-form-text-hover; }
+.color-button-form-border-hover { background-color: $color-button-form-border-hover; }
+
+.color-button-form-input-border-focus { background-color: $color-button-form-input-border-focus; }
+.color-button-form-input-text-focus { background-color: $color-button-form-input-text-focus; }
+
+.color-tab-text { background-color: $color-tab-text; }
+.color-tab-bg { background-color: $color-tab-bg; }
+
+.color-tab-text-hover { background-color: $color-tab-text-hover; }
+.color-tab-bg-hover { background-color: $color-tab-bg-hover; }
+
+.color-tab-text-active { background-color: $color-tab-text-active; }
+.color-tab-bg-active { background-color: $color-tab-bg-active; }
+.color-tab-border-active { background-color: $color-tab-border-active; }
+
+.color-tab-bg-active-light { background-color: $color-tab-bg-active-light; }
+.color-tab-box-shadow-active { background-color: $color-tab-box-shadow-active; }
+
+.color-tab-text-mini-active { background-color: $color-tab-text-mini-active; }
+.color-tab-bg-mini-active { background-color: $color-tab-bg-mini-active; }
+.color-tab-bg-mini { background-color: $color-tab-bg-mini; }
+
+.color-poll-bg1 { background-color: $color-poll-bg1; }
+.color-poll-bg2 { background-color: $color-poll-bg2; }
+.color-poll-bg3 { background-color: $color-poll-bg3; }
+.color-poll-bg4 { background-color: $color-poll-bg4; }
+.color-poll-bg5 { background-color: $color-poll-bg5; }
+
+.color-poll-border1 { background-color: $color-poll-border1; }
+.color-poll-border2 { background-color: $color-poll-border2; }
+.color-poll-border3 { background-color: $color-poll-border3; }
+.color-poll-border4 { background-color: $color-poll-border4; }
+.color-poll-border5 { background-color: $color-poll-border5; }
+
+// Highlight colors
+.color-blockquote { background-color: $color-blockquote; }
+.color-blockquote-inner { background-color: $color-blockquote-inner; }
+
+.color-pm-reply { background-color: $color-pm-reply; }
+.color-pm-friend { background-color: $color-pm-friend; }
+.color-pm-reported { background-color: $color-pm-reported; }
+.color-pm-marked { background-color: $color-pm-marked; }
+.color-pm-foe { background-color: $color-pm-foe; }
+
+
+
+
+
+
+// NEW
+.primary {
+	background: $primary;
+
+	&-light {
+		background: $primary-light;
+	}
+
+	&-dark {
+		background: $primary-dark;
+	}
+	
+	&-alt {
+		background: $primary-alt;
+
+		&-light {
+			background: $primary-alt-light;
+		}
+
+		&-dark {
+			background: $primary-alt-dark;
+		}
+	}
+}
+
+.secondary {
+	background: $secondary;
+
+	&-light {
+		background: $secondary-light;
+	}
+
+	&-dark {
+		background: $secondary-dark;
+	}
+	
+	&-alt {
+		background: $secondary-alt;
+
+		&-light {
+			background: $secondary-alt-light;
+		}
+
+		&-dark {
+			background: $secondary-alt-dark;
+		}
+	}
+}
+
+.background {
+	background: $background;
+	
+	&-alt {
+		background: $background-alt;
+	}
+}
+
+.surface {
+	background: $surface;
+
+	&-light {
+		background: $surface-light;
+	}
+
+	&-dark {
+		background: $surface-dark;
+	}
+	
+	&-alt {
+		background: $surface-alt;
+
+		&-light {
+			background: $surface-alt-light;
+		}
+
+		&-dark {
+			background: $surface-alt-dark;
+		}
+	}
+}
+
+
+
+.colors {
+	margin: 8px;
+	display: flex;
+}
+
+.swatch {
+	font-family: sans-serif;
+	background: hsl(0, 0%, 90%);
+	border-radius: 3px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+	margin: 8px;
+	
+	&-body {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		align-items: center;
+  		justify-content: center;
+	}
+	
+	&-strip {
+		font-size: 16px;
+		letter-spacing: 0.04em;
+		font-weight: normal;
+		line-height: 20px;
+		color: #ffffff;
+		text-align: center;
+		padding: 24px 16px;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		justify-content: center;
+		align-self: center;
+		// min-width: 80px;
+		
+		&:first-of-type {
+			border-top-left-radius: 3px;
+		}
+		
+		&:last-of-type {
+			border-top-right-radius: 3px;
+		}
+	}
+	
+	&-title {
+		font-size: 20px;
+		letter-spacing: 0.02em;
+		font-weight: 500;
+		line-height: 24px;
+		margin: 0;
+		padding: 8px 8px 8px 16px;
+		color: $gray-800;
+	}
+	
+	&-subtitle {
+		font-size: 16px;
+		letter-spacing: 0.04em;
+		font-weight: normal;
+		line-height: 20px;
+		display: block;
+	}
+}
